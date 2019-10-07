@@ -11,6 +11,5 @@ function odd_or_even(){
 		alert("oudd");
 	}
 	else{
-		alert("you did not entr a number");
+		alert("you did not entr a number");                                                                                                                                                                                                                                                                                           
 	}
-}
