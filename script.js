@@ -13,3 +13,10 @@ function odd_or_even(){
 	else{
 		alert("you did not entr a number");                                                                                                                                                                                                                                                                                           
 	}
+	function the_missing_angle(){
+	var usernum=prompt("the two angle are 60% and 60%. What is the missing angle ");
+	if (usernum %60==0
+		%60==0){
+		alert("Correct");	
+	}
+	else if ("Tey Again");
