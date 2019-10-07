@@ -1,16 +1,22 @@
 
 h1{
-	color: green;
-	text-align: center;
+	color:green;
+	text-align:center;
 	font-family:cursive;
-	background-color: lightblue;
+	background-color:lightblue;
 }
 
 p{
-	color: black;
+	color:black;
 }
 h2{
-	color: red;
+	color:red;
+	font-family:cursive;
+}
+
+h6{
+	color:purple;
+	text-align:center;
 	font-family:cursive;
 }
 
