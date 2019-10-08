@@ -22,5 +22,13 @@ function the_missing_angle(){
 	}
 	else {
 		alert("Tey Again");
-    }
+	}
+{
+	vae sum=0;
+	vae number=1;
+while(number<=50){ //-- conditon
+sum+=number;		//--body
+number++			//-- updater
+}
+alert("sum = " + sum); //=> Sum =1275
 }
