@@ -27,8 +27,9 @@ function the_missing_angle(){
 	vae sum=0;
 	vae number=1;
 while(number<=50){ //-- conditon
-sum+=number;		//--body
-number++			//-- updater
+	sum+=number;		//--body
+	number++			//-- updater
 }
-alert("sum = " + sum); //=> Sum =1275
+	alert("sum = " + sum); //=> Sum =1275
 }
+	}
