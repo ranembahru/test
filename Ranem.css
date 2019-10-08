@@ -14,9 +14,11 @@ h2{
 	font-family:cursive;
 }
 
+ <button onclick="the_missing_angle()">the missing anngle</button>
+ <button onclick="the_missing_angle()">the missing anngle</button>
+ <button onclick="the_missing_angle()">the missing anngle</button>
 h3{
 	color:purple;
-	text-align:center;
 	font-family:cursive;
 }
 
