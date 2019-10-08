@@ -19,4 +19,5 @@ function odd_or_even(){
 		%60==0){
 		alert("Correct");	
 	}
-	else if ("Tey Again");
+	else if {("Tey Again");
+}
