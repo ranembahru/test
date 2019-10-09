@@ -24,12 +24,12 @@ function the_missing_angle(){
 		alert("Tey Again");
 	}
 {
-	vae sum=0;
+	var sum=0;
 	vae number=1;
-while(number<=50){ //-- conditon
-	sum+=number;		//--body
-	number++			//-- updater
+while(number<=50){
+	sum+=number;		
+	number++			
 }
-	alert("sum = " + sum); //=> Sum =1275
+	alert("sum = " + sum);
 }
 	}
