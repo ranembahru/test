@@ -23,13 +23,14 @@ function the_missing_angle(){
 	else {
 		alert("Tey Again");
 	}
-{
-	var sum=0;
-	vae number=1;
-while(number<=50){
-	sum+=number;		
-	number++			
 }
+
+function test(){	
+	var sum=0;
+	var number=1;
+	while(number<=50){
+		sum+=number;		
+		number++;		
+	}
 	alert("sum = " + sum);
 }
-	}
