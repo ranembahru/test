@@ -21,8 +21,8 @@ function the_missing_angle(){
 	if    (usernum ==50){
 	      alert("Correct");
 	}
-	else{ 
-		usernum=promZpt("Try Again");
+	else{
+		usernum=prompt("Try Again")
 	}
 }
 }
