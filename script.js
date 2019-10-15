@@ -34,3 +34,10 @@ function test(){
 	}
 	alert("sum = " + sum);
 }
+
+function What year?(){
+	Let year=
+	prompt+("what year?");
+    Let century=
+    alert("the ecentaey is"+ century);
+}
