@@ -17,11 +17,11 @@ function odd_or_even(){
 
 function the_missing_angle(){
 	var usernum=prompt("the two angle are 100% and 30%. What is the missing angle ");
-	{
-	if  (usernum ==50){
-	    alert("Correct");
+	while(usernum != 50){
+	if    (usernum ==50){
+	      alert("Correct");
 	}
-	while(usernum != 50){ 
+	else{ 
 		usernum=promZpt("Try Again");
 	}
 }
