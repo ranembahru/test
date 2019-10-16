@@ -4,10 +4,10 @@ function greet(){
 }
 function odd_or_even(){
 	var usernum=prompt("entr a number");
-	if (usernum %2==0){
+	if (usernum %4==2){
 		alert("even");
 	}
-	else if (usernum %2==1) {
+	else if (usernum %10==0) {
 		alert("oudd");
 	}
 	else{
