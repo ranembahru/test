@@ -36,8 +36,8 @@ function o_and_v(){
 // 	alert("sum = " + sum);
 // }
 
-function What_year(){
-	let year= parseInt(prompt ("what year?"));
-    let century= parseInt((year) / 100) + 1;
-    alert("the ecentaey is "+ century);
-}
+// function What_year(){
+// 	let year= parseInt(prompt ("what year?"));
+//     let century= parseInt((year) / 100) + 1;
+//     alert("the ecentaey is "+ century);
+// }
