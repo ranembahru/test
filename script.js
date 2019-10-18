@@ -3,7 +3,7 @@
 // 	alert("Hi "+storach);
 // }
 
-function o_and_v(){
+function Odd_and_Even(){
 	var usernum=prompt("entr a number that is amalibal of 13");
 	for(let i=0;i<4;i++){
 	if (usernum %13==0){
