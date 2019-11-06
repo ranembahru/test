@@ -41,3 +41,15 @@ function What_year(){
     let century= parseInt((year) / 100) + 1;
     alert("the ecentaey is "+ century);
 }
+
+function password_check(userName, userPassword){
+  userLower = userName.toLowerCase();
+  if(userLower == "ranem" && userPassword == "123"){
+    console.log("welcome");
+  }else{
+    console.log("Hack someone else");
+  }
+}
+
+console.log(password_check("RANem", "123"))
+
