@@ -52,4 +52,3 @@ function password_check(userName, userPassword){
 }
 
 console.log(password_check("RANem", "123"))
-
