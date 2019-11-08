@@ -52,3 +52,15 @@ function password_check(userName, userPassword){
 }
 
 console.log(password_check("RANem", "123"))
+
+function up_low(msg){
+  let log.toLowerupCase();
+  if(msg == "soreen"){
+    console.log("welcome");
+  }else{
+    console.log("Hack someone else");
+     for(let i=0;i<4;i++);
+  }
+}
+
+console.log(msg("soreen"))
