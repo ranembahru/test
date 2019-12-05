@@ -68,7 +68,8 @@ function up_low(){
 }
 
 function encrypt(text){
-string.replace(searchvalue, newvalue)
-string.replace(text "a=z,b=y,c=x,d=w,e=v,f=u,g=t,h=s,i=r,j=q,k=p,l=o,m=n,n=m,o=l,p=k,q=j,r=i,s=h,t=g,u=f,v=e,w=d,x=c,y=b,z=a")
+text.replace("a", "z");
+alert(text)
+// text.replace(text "a=z,b=y,c=x,d=w,e=v,f=u,g=t,h=s,i=r,j=q,k=p,l=o,m=n,n=m,o=l,p=k,q=j,r=i,s=h,t=g,u=f,v=e,w=d,x=c,y=b,z=a")
 }
 encrypt("Hi, it is nice to meet you and congratulations for solving the problem");
