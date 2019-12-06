@@ -69,6 +69,18 @@ function up_low(){
 
 function encrypt(){
 let text=prompt("entar your mesg");
-let msg=(text.replace(/a/g, "z").replace(/b/g,"y").replace(/c/g,"x").replace(/d/g,"w").replace(/e/g,"v").replace(/f/g,"u").replace(/g/g,"t").replace(/h/g,"s").replace(/i/g,"r").replace(/j/g,"q").replace(/k/g,"p").replace(/l/g,"o").replace(/m/g,"n").replace(/n/g,"m").replace(/o/g,"l").replace(/p/g,"k").replace(/q/g,"j").replace(/r/g,"i").replace(/s/g,"h").replace(/t/g,"g").replace(/u/g,"f").replace(/v/g,"e").replace(/w/g,"d").replace(/x/g,"c").replace(/y/g,"b").replace(/z/g,"a"));
+let msg=(text.replace(/a/g, "z").replace(/b/g,"y"));
+msg=(msg.replace(/c/g,"x").replace(/d/g,"w"));
+msg=(msg.replace(/e/g,"v").replace(/f/g,"u"));
+msg=(msg.replace(/g/g,"t").replace(/h/g,"s"));
+msg=(msg.replace(/i/g,"r").replace(/j/g,"q"));
+msg=(msg.replace(/k/g,"p").replace(/l/g,"o"));
+msg=(msg.replace(/m/g,"n").replace(/n/g,"m"));
+msg=(msg.replace(/o/g,"l").replace(/p/g,"k"));
+msg=(msg.replace(/q/g,"j").replace(/r/g,"i"));
+msg=(msg.replace(/s/g,"h").replace(/t/g,"g"));
+msg=(msg.replace(/u/g,"f").replace(/v/g,"e"));
+msg=(msg.replace(/w/g,"d").replace(/x/g,"c"));
+msg=(msg.replace(/y/g,"b").replace(/z/g,"a"));
 document.getElementById("inc").innerHTML=msg;
 }
