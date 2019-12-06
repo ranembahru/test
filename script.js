@@ -67,8 +67,8 @@ function up_low(){
   alert(msg)
 }
 
-function encrypt(text){
-alert(text.replace("a", "z"));
-// text.replace(text "a=z,b=y,c=x,d=w,e=v,f=u,g=t,h=s,i=r,j=q,k=p,l=o,m=n,n=m,o=l,p=k,q=j,r=i,s=h,t=g,u=f,v=e,w=d,x=c,y=b,z=a")
+function encrypt(){
+let text=prompt("entar your mesg");
+let msg=(text.replace(/a/g, "z").replace(/b/g,"y").replace(/c/g,"x").replace(/d/g,"w").replace(/e/g,"v").replace(/f/g,"u").replace(/g/g,"t").replace(/h/g,"s").replace(/i/g,"r").replace(/j/g,"q").replace(/k/g,"p").replace(/l/g,"o").replace(/m/g,"n").replace(/n/g,"m").replace(/o/g,"l").replace(/p/g,"k").replace(/q/g,"j").replace(/r/g,"i").replace(/s/g,"h").replace(/t/g,"g").replace(/u/g,"f").replace(/v/g,"e").replace(/w/g,"d").replace(/x/g,"c").replace(/y/g,"b").replace(/z/g,"a"));
+document.getElementById("inc").innerHTML=msg;
 }
-encrypt("Hi, it is nice to meet you and congratulations for solving the problem");
