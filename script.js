@@ -68,25 +68,27 @@ function up_low(){
 }
 
 function encrypt(){
-// let text=prompt("entar your mesg");
-// let msg=(text.replace(/a/g, "z").replace(/b/g,"y"));
-// msg=(msg.replace(/c/g,"x").replace(/d/g,"w"));
-// msg=(msg.replace(/e/g,"v").replace(/f/g,"u"));
-// msg=(msg.replace(/g/g,"t").replace(/h/g,"s"));
-// msg=(msg.replace(/i/g,"r").replace(/j/g,"q"));
-// msg=(msg.replace(/k/g,"p").replace(/l/g,"o"));
-// msg=(msg.replace(/m/g,"n").replace(/n/g,"m"));
-// msg=(msg.replace(/o/g,"l").replace(/p/g,"k"));
-// msg=(msg.replace(/q/g,"j").replace(/r/g,"i"));
-// msg=(msg.replace(/s/g,"h").replace(/t/g,"g"));
-// msg=(msg.replace(/u/g,"f").replace(/v/g,"e"));
-// msg=(msg.replace(/w/g,"d").replace(/x/g,"c"));
-// msg=(msg.replace(/y/g,"b").replace(/z/g,"a"));
-// document.getElementById("inc").innerHTML=msg;
+let text=prompt("entar your mesg");
+let msg=(text.replace(/a/g, "c").replace(/b/g,"e"));
+msg=(msg.replace(/c/g,"d").replace(/d/g,"u"));
+msg=(msg.replace(/e/g,"v").replace(/f/g,"q"));
+msg=(msg.replace(/g/g,"t").replace(/h/g,"b"));
+msg=(msg.replace(/i/g,"g").replace(/j/g,"w"));
+msg=(msg.replace(/k/g,"w").replace(/l/g,"x"));
+msg=(msg.replace(/m/g,"p").replace(/n/g,"l"));
+msg=(msg.replace(/o/g,"h").replace(/p/g,"a"));
+msg=(msg.replace(/q/g,"i").replace(/r/g,"y"));
+msg=(msg.replace(/s/g,"o").replace(/t/g,"z"));
+msg=(msg.replace(/u/g,"j").replace(/v/g,"k"));
+msg=(msg.replace(/w/g,"s").replace(/x/g,"r"));
+msg=(msg.replace(/y/g,"n").replace(/z/g,"m"));
+document.getElementById("inc").innerHTML=msg;
+}
+
+// var chars ={'a':'c','b':'e','c':'d','d':'u','e':'v','f':'q','g':'t','h':'b','i':'g','j':'w','k':'f','l':'x','m':'p','n':'l','o':'h','p':'a','q':'i','r':'y','s':'o','t':'z','u':'j','v':'k','w':'s','x':'r','y':'n','z':'m'};
+// var test = prompt('Enter Your Message');
+// text = prompt.replace(/[abcdefghijklmnopqrstuvwxyz]/g, m => chars[m]);
+// console.log(text);
 // }
 
-var chars ={'a':'c','b':'e','c':'d','d':'u','e':'v','f':'q','g':'t','h':'b','i':'g','j':'w','k':'f','l':'x','m':'p','n':'l','o':'h','p':'a','q':'i','r':'y','s':'o','t':'z','u':'j','v':'k','w':'s','x':'r','y':'n','z':'m'};
-var test = prompt('Enter Your Message');
-text = prompt.replace(/[abcdefghijklmnopqrstuvwxyz]/g, m => chars[m]);
-console.log(text);
-}
+//function  an_encrypt(){
