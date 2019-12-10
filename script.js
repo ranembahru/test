@@ -74,4 +74,9 @@ text = test.replace(/[abcdefghijklmnopqrstuvwxyz]/g, m => chars[m]);
 document.getElementById("inc").innerHTML=text;
 }
 
-//function  an_encrypt(){
+function  D_encrypt(){
+var chars ={'c':'a','e':'b','d':'c','u':'d','v':'e','q':'f','t':'g','b':'h','g':'i','w':'j','f':'k','x':'l','p':'m','l':'n','h':'o','a':'p','i':'q','y':'r','o':'s','z':'t','j':'u','k':'v','s':'w','r':'x','n':'y','m':'z'};
+var test = prompt('copy the above and paste it here');
+text = test.replace(/[abcdefghijklmnopqrstuvwxyz]/g, m => chars[m]);
+document.getElementById("true").innerHTML=text;
+}
