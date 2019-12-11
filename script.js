@@ -69,7 +69,7 @@ function up_low(){
 
 function encrypt(){
 var chars ={'a':'c','b':'e','c':'d','d':'u','e':'v','f':'q','g':'t','h':'b','i':'g','j':'w','k':'f','l':'x','m':'p','n':'l','o':'h','p':'a','q':'i','r':'y','s':'o','t':'z','u':'j','v':'k','w':'s','x':'r','y':'n','z':'m'};
-var test = prompt('Enter Your Message');
+var test = prompt('Enter Your Message [type in small letterd]');
 text = test.replace(/[abcdefghijklmnopqrstuvwxyz]/g, m => chars[m]);
 document.getElementById("inc").innerHTML=text;
 }
