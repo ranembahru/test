@@ -43,8 +43,8 @@ function What_year(){
 }
 
 function password_check(){
-  let userName= prompt("usarnaem");
-  let userPassword= prompt("paswrd");
+  let userName= prompt("usarnaem (ranem)");
+  let userPassword= prompt("paswrd (123)");
   userLower = userName.toLowerCase();
   if(userLower == "ranem" && userPassword == "123"){
     alert("welcome");
@@ -55,16 +55,16 @@ function password_check(){
 
 function up_low(){
   let msg=prompt("ente a masge")
-   let msg2=msg.toLowerCase();
-	for(let i=0;i<msg.length;i++){
-		if (i%2==0){
-			msg2+=msg[i].toUpperCase();
+  let msg2=msg.toLowerCase();
+  for(let i=0;i<msg.length;i++){
+  if (i%2==0){
+		msg2+=msg[i].toUpperCase();
   		}
-  		else {
-  			msg2+=msg[i]
+  else {
+  		msg2+=msg[i]
   		}
   	}
-  alert(msg)
+	alert(msg)
 }
 
 function encrypt(){
